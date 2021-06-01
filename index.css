@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+body{
+    display: flex;
+    background-color: rgba(29, 1, 56, 0.952);
+    background-repeat: no-repeat;
+    height: 800px;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.main_div{
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(21, 1, 70);
+    /* border: 2px solid black; */
+    text-shadow: 10px 10px 5px black;
+    /* margin:150px auto ; */
+    box-shadow: 10px 10px 10px 20px rgb(8, 8, 12);
+    
+}
+h2{
+    display: block;
+    position: relative;
+    color: rgba(132, 1, 255, 0.281);
+    /* margin: auto 90px; */
+    text-align: center;
+    overflow: hidden;
+    text-shadow: 10px 10px 5px black;
+    z-index: 1;
+}
+h3{
+    display: block;
+    position: relative;
+    color: rgba(46, 117, 5, 0.575);
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+img{
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    /* margin-top:50px; */
+    border-radius: 49%;
+    margin-left: 50px ;
+    margin-top: 30px;
+    box-shadow: 0px 0px 30px 20px rgb(3, 3, 3);
+    
+}
+.anime {
+ animation: rotate 3s linear infinite;
+}
+@keyframes rotate {
+    0%{
+rotate: 0deg;
+    }100%{
+rotate: 360deg;
+    }
+    
+} 
+.music{
+    display: flex;
+    position: relative;
+    width: 100%;
+   box-sizing: content-box;
+    color: red;
+    margin-top: 30px;
+    background-color: transparent;
+    opacity: 0;
+}
+
+
+.music_cont{
+    display: flex;
+    position: relative;
+    color: rgba(6, 235, 235, 0.473);
+    height: 50px;
+    width: 100%;
+    margin-top: 200px;
+    /* border: 2px solid black; */
+    padding-left: 40px;
+    padding-right: 40px;
+
+    justify-content: space-between;
+    
+}
